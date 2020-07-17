@@ -1,0 +1,42 @@
+{
+    "name": "laragle/support",
+    "description": "Laragle support component.",
+    "keywords": [
+        "laragle",
+        "support"
+    ],
+    "homepage": "https://github.com/laragle/support",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Darwin Luague",
+            "email": "darwinluague9001@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Laragle\\Support\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Laragle\\Support\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
